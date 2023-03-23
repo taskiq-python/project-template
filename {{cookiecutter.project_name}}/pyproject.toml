@@ -21,7 +21,7 @@ classifiers = [
     "Development Status :: 3 - Alpha",
 ]
 keywords = ["taskiq", "tasks", "distributed", "async"]
-packages = [{ include = "project_template" }]
+packages = [{ include = "{{cookiecutter.project_name}}" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
