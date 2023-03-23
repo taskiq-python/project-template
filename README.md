@@ -8,7 +8,7 @@ How to create a new project:
 
 1. Create repository;
 2. Run `cookiecutter https://github.com/taskiq-python/project-template`;
-3. Answer 2 questions;
+3. Answer 2 questions PLEASE USE SNAKE CASE FOR PROJECT NAMES;
 4. Initialize git repo;
 5. Push initial commit;
 6. Create awesome project.
