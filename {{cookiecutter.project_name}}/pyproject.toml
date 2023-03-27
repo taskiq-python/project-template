@@ -25,7 +25,7 @@ packages = [{ include = "{{cookiecutter.project_name}}" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
-taskiq = "^0.2.2"
+taskiq = "^0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.2"
