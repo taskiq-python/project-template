@@ -1,1 +1,1 @@
-"""Project was generated using taskiq."""
+"""Project was generated using https://github.com/taskiq-python/project-template/."""
