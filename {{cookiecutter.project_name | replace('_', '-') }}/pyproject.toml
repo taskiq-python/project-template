@@ -39,6 +39,7 @@ anyio = "^4"
 pytest-xdist = { version = "^3", extras = ["psutil"] }
 types-mock = "^5"
 black = "^25"
+ruff = "^0"
 
 [tool.mypy]
 strict = true

@@ -28,7 +28,7 @@ repos:
         language: system
         types: [python]
         pass_filenames: false
-        args: [{{cookiecutter.project_name}}]
+        args: ["{{cookiecutter.project_name}}"]
 
       - id: ruff
         name: Run ruff lints
@@ -37,6 +37,7 @@ repos:
         pass_filenames: false
         types: [python]
         args:
-          - "--fix"
+          - check
+          - --fix
           - "{{cookiecutter.project_name}}"
-          - "tests"
+          - tests
